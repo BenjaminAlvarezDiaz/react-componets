@@ -9,6 +9,7 @@ import TabBar from "./components/TabBar/TabBar.jsx";
 import "./App.css";
 import SearchBox from "./components/SearchBox/SearchBox.jsx";
 import Login from "./pages/Login.jsx";
+import Profile from "./pages/Profile.jsx";
 
 function App(){
     return (
@@ -18,6 +19,7 @@ function App(){
                 <Route path= "/developer" element= {<Developer/>} />
                 <Route path= "/control-panel" element= {<ControlPanel/>}/>
                 <Route path= "/login" element= {<Login/>}/>
+                <Route path= "/profile" element= {<Profile/>}/>
             </Routes>
         </div>
         /*<div className="App">
